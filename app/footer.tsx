@@ -41,7 +41,7 @@ function Footer() {
                   {linkList.groupLabel}
                 </h3>
 
-                <li className="flex flex-col space-y-2">
+                <div className="flex flex-col space-y-2">
                   {linkList.links.map((link) => (
                     <li key={link.label}>
                       <Link
@@ -52,7 +52,7 @@ function Footer() {
                       </Link>
                     </li>
                   ))}
-                </li>
+                </div>
               </ul>
             ))}
           </div>
